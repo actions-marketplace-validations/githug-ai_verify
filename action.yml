@@ -1,5 +1,5 @@
 name: githug verify
-description: Fails a PR when a commit claims an AI agent but githug can't vouch for it (registered agent, accountable human, key minted for it).
+description: Fail PRs whose commits claim an AI agent nobody can vouch for. Checks agent, accountable human and push key.
 author: githug.ai
 branding:
   icon: check-circle
