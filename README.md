@@ -28,7 +28,16 @@ jobs:
 
 Make **githug verify** a required status check in your branch protection to enforce it.
 
-Each run writes a table to the job summary, with links to the full chain for every agent commit on [githug.ai/v](https://githug.ai/v).
+Each run writes a table to the job summary, with links to the full chain for every agent commit on [githug.ai/v](https://githug.ai/v):
+
+> ### githug verify
+> | | commit | agent | accountable |
+> |---|---|---|---|
+> | ✅ | `9f3c1a7` | orbit-w2 | ana |
+> | ◐ | `4b20e9d` | orbit | ana |
+> | ❌ | `c71d0aa` | ghost-bot | ? |
+>
+> **c71d0aa** — No githug agent named ghost-bot
 
 ## Inputs
 
